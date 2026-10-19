@@ -1,0 +1,20 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "我的任务",
+  "outputfilename": "我的任务",
+  "frontend:dir": "../frontend",
+  "build:dir": "../build",
+  "wailsjsdir": "../frontend",
+  "frontend:install": "npm ci",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": { "name": "TaskPicker" },
+  "info": {
+    "companyName": "TaskPicker",
+    "productName": "我的任务",
+    "productVersion": "2.0.0",
+    "copyright": "TaskPicker",
+    "comments": "腾讯文档 · 本地任务与图片阅读器"
+  }
+}
